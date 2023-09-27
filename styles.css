@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 1px #20494B, 0 0 115px #151618, 0 0 1px #4D5A6A;
+}
+
+.avatar {
+    width: 300px;
+    border: 1px solid #4D5A6A;
+    padding: 1px;
+}
+
+.card {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #CED4DF;
+    color: #151618;
+    border-bottom: 30px solid #2B323B;
+    box-shadow: 10px 15px 10px #4D5A6A;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+div {
+  width: 600px;
+  background-color: #CED4DF;
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+@keyframes example {
+  from {background-color: aqua;}
+  to {background-color: #6C7889;}
